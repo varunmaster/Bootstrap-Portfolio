@@ -1,8 +1,10 @@
 body {
     background: url("../images/concrete_seamless.png");
+    width: 960px;
+    margin: 0 auto;
 }
 
-#name {
+#contentName {
     float: left;
     width: 250px;
     height: 90px;
@@ -13,7 +15,7 @@ body {
     color: #ffffff;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background-color: #4aaaa5;
 }
 
 #container {
