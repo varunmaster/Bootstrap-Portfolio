@@ -1,6 +1,6 @@
 body {
     background: url("../images/concrete_seamless.png");
-    width: 960px;
+    /* width: 960px; */
     margin: 0 auto;
 }
 
@@ -62,16 +62,10 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     img {
-        /* max-width: 100%; */
-        /* height: auto; */
         width: auto;
-        max-width: auto;
-        height: auto;
-    }
-
-    body {
-        width: auto;
+        max-width: 100%;
     }
 }
+ 
