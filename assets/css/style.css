@@ -30,6 +30,7 @@ h3 {
     color: #ffffff;
     margin-top: 0px;
     margin-right: 50px;
+    height: auto;
 }
 
 .backgroundBox {
@@ -54,7 +55,6 @@ footer {
 
 textarea {
     width: 100%;
-    height: 300px;
 }
 
 img {
@@ -62,14 +62,60 @@ img {
     height: auto;
 }
 
-@media screen and (max-width: 768px) {
-    img {
+/* index2 below excluding media queries */
+body {
+    background: url("../images/concrete_seamless.png");
+    width: auto;
+    margin: 0 auto;
+}
+
+.borderbox {
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
+    max-width: 100%;
+    height: 400px;
+}
+
+img {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+#aboutme {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+}
+
+@media screen and (max-width: 978px) {
+    .borderbox, #card-body {
         width: auto;
         max-width: 100%;
     }
 
+    #card {
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
     h3 {
         width: 250px;
+    }
+
+    .borderbox, #card-body {
+        width: auto;
+        max-width: 100%;
+    }
+
+    #card {
+        width: auto;
+        max-width: 100%;
     }
 }
  
