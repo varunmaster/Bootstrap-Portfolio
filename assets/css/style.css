@@ -57,11 +57,6 @@ textarea {
     width: 100%;
 }
 
-img {
-    width: auto;
-    height: auto;
-}
-
 /* index2 below excluding media queries */
 body {
     background: url("../images/concrete_seamless.png");
@@ -79,10 +74,17 @@ body {
 
 img {
     float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
+    /* max-width: 100%; */
+    /* height: auto; */
+    /* margin-top: 10px; */
+    /* margin-right: 25px; */
+}
+
+.about-title {
+    border-bottom: 0.5px solid rgb(105, 104, 104);
+    padding: 0 0.5rem 0.5rem 0.5rem;
+    margin-bottom: 1rem;
+    margin-left: 0;
 }
 
 #aboutme {
@@ -101,6 +103,13 @@ img {
         width: auto;
         max-width: 100%;
     }
+    img {
+        float: left;
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -116,6 +125,13 @@ img {
     #card {
         width: auto;
         max-width: 100%;
+    }
+    img {
+        float: left;
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+        margin-right: 25px;
     }
 }
  
