@@ -58,6 +58,11 @@ textarea {
     width: 100%;
 }
 
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 /* index2 below excluding media queries */
 
 
